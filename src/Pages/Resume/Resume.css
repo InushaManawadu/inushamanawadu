@@ -1,0 +1,68 @@
+.aboutme_text {
+  color: black !important;
+  font: smaller;
+  text-align: justify;
+  line-height: 22px !important;
+  white-space: pre-line !important;
+}
+
+.service {
+  height: 100%;
+  text-align: center;
+  border-color: "red";
+  box-shadow: 0 0 5px rgb(22, 22, 22);
+}
+
+.service .service_title {
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  line-height: 35px !important;
+  text-align: center;
+}
+
+.service .service_description {
+  color: coral;
+  border-color: #ffaa00 !important;
+  margin-left: 5px !important;
+  text-align: center;
+}
+
+.service_icon > .MuiSvgIcon-root {
+  font-size: 46px;
+  margin-left: 0 !important;
+  font-weight: 300 !important;
+  color: darkslategray;
+}
+
+.skill {
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0px 40px 0px rgba(4, 6, 4, 0.08) !important;
+  min-height: 186px;
+  height: 100%;
+}
+
+.skill .skills_title {
+  color: black;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  line-height: 35px !important;
+}
+
+.skills_description {
+  display: flex;
+  align-items: center;
+  color: #989898 !important;
+  font-weight: 400 !important;
+  line-height: 18px !important;
+}
+
+.skill .skills_description .timeline_dot {
+  border-color: #ffaa00 !important;
+  page-break-after: 2px !important;
+  margin-right: 5px !important;
+}
+
+.graybg {
+  background-color: #fafafa;
+}
