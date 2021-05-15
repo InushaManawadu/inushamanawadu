@@ -41,9 +41,9 @@ const Header = (props) => {
                 </Nav.Link>
             
                 <div className='header_right'>
-                    <a href=""> <FacebookIcon/> </a>
-                    <a href=""> <LinkedInIcon/> </a>
-                    <a href=""> <GitHubIcon/> </a>
+                    <a href="https://www.facebook.com/inusha.dasan.5/"> <FacebookIcon/> </a>
+                    <a href="https://www.linkedin.com/in/inushamanawadu/"> <LinkedInIcon/> </a>
+                    <a href="https://github.com/InushaManawadu"> <GitHubIcon/> </a>
                 </div>
                <CustomButton text={'Hire Me'} icon={<TelegramIcon/>} onClick={() => alert("This Functionality is Under Construction")}/>
             </Navbar.Collapse>
